@@ -29,28 +29,28 @@ These are collection of variable and a setter function provided by useSate hook.
 
 ## Core Componenets and Native Componenets
 
-View is the basic building block for UI on IOS and Android. \n
-*View* is a small rectangular element on the screen that can be used to display anything; text, image, input or user input response. \n
-Even a small breaker is a kind of view; some views are nestable. \n
-For web developers View can be translated as a `<div>`. \n
+...View is the basic building block for UI on IOS and Android. ..
+...*View* is a small rectangular element on the screen that can be used to display anything; text, image, input or user input response. ..
+...Even a small breaker is a kind of view; some views are nestable. ..
+...For web developers View can be translated as a `<div>`. ..
 
 ### Native Components
 
-Android => Kotlin \ Java \n https://reactnative.dev/docs/native-components-android?android-language=kotlin
-IOS => Swift \ Objective-C \n https://reactnative.dev/docs/native-components-ios
-React Native => Middle man allows you to access these specific Android and IOS views using JavaScript componenets. \n
-At runtime Native would create corrosponding views for these components. These componenets are compiled to native componenet for that operating system and hence feels very simillar if you were working with Kotlin/Swift. \n
-Hence, these components are called *Native Componenets*. https://reactnative.directory/
+...Android => Kotlin \ Java https://reactnative.dev/docs/native-components-android?android-language=kotlin ..
+...IOS => Swift \ Objective-C https://reactnative.dev/docs/native-components-ios ..
+...React Native => Middle man allows you to access these specific Android and IOS views using JavaScript componenets ..
+...At runtime Native would create corrosponding views for these components. These componenets are compiled to native componenet for that operating system and hence feels very simillar if you were working with Kotlin/Swift.
+...Hence, these components are called *Native Componenets*. https://reactnative.directory/
 
 ### Core Components
 
-These are mostly common componenets shared across Android and IOS; e.g, ImageView, TextView on Android can be UIImageView and UITextView on IOS. \n
+...These are mostly common componenets shared across Android and IOS; e.g, ImageView, TextView on Android can be UIImageView and UITextView on IOS. \n
 
-<View> => A container that supports Layout \n
-<Text> => Display style and nest strings \n
-<Image> => Displays different types of images \n
-<ScrollView> => A generic scrolling container \n
-<TextInput> => Allows the user to enter text \n
+...<View> => A container that supports Layout ..
+...<Text> => Display style and nest strings ..
+...<Image> => Displays different types of images ..
+...<ScrollView> => A generic scrolling container ..
+...<TextInput> => Allows the user to enter text ..
 
 
 
