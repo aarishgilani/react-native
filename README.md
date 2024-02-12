@@ -69,6 +69,31 @@ These are mostly common componenets shared across Android and IOS; e.g, ImageVie
 
 `<TextInput>` => Allows the user to enter text
 
+#### Handeling Text Input
+
+- Core component
+
+##### Hooks:
+- onChangeText: Takes a function to be called everytime the text is changed.
+- onSubmitEditing: Takes a function to be called when text is submitted.
+
+#### ScrollView
+
+- Core component
+
+##### Hooks:
+
+- pagingEnabled: Allows paging through views using swipe gesture.
+- maximumZoomScale / minimumZoomScale: Allows iOS users to use Zoom genstures. View should only contain single element.
+
+#### FlatList
+
+- Core component
+
+
+
+
+
 
 
 
