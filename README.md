@@ -89,6 +89,12 @@ These are mostly common componenets shared across Android and IOS; e.g, ImageVie
 #### FlatList
 
 - Core component
+- Only renders data currently being viewed on screen unlike ScrollView which loads all the data altogether.
+
+##### Props
+
+- data: Source of information for the list.
+- renderItem: Takes one items from source and returns a formatted component to render.
 
 
 
